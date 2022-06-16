@@ -7,8 +7,15 @@
 	font-family: Mont-HeavyDEMO;
 	src: url(assets/fonts/Mont-HeavyDEMO.otf);
 }
-@import
-url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@font-face {
+	font-family: Montserrat;
+	src: url(assets/fonts/Montserrat-Medium.ttf);
+}
+@font-face {
+	font-family: Montserrat Bold;
+	src: url(assets/fonts/Montserrat-Bold.ttf);
+}
+
 
 /* body */
 * {
@@ -17,7 +24,7 @@ url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=sw
   outline: none!important;
 }
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: Montserrat, sans-serif;
   overflow-x: hidden;
   background-color: #fff;
 }
@@ -168,7 +175,7 @@ ul {
 /* history */
 .about-us {
   background-color: #F49EBA;
-  padding: 20px 0 0 0;
+  padding: 20px 0;
   margin-top: -15px;
   overflow-x: hidden;
   overflow-y: hidden;
@@ -230,7 +237,7 @@ ul {
   margin-top: -37px;
 }
 .about-us .card-vision h6 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: Montserrat, sans-serif;
   font-weight: bold;
   color: #04675E;
   padding: 20px 20px 0;
@@ -382,7 +389,7 @@ ul {
   margin-top: 2px;
 }
 .our-client .client-card .rate h6 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: Montserrat, sans-serif;
   font-size: 15px;
   font-weight: bold;
   margin-top: -15px;
@@ -529,7 +536,7 @@ ul {
 form {
   padding-bottom: 15px;
   margin-top: 20px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 form input {
   width: 100%;
